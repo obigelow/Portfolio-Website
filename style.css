@@ -33,7 +33,7 @@ body {
     color: lightslategray;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
    
     .card-header {
       position: relative;
@@ -44,8 +44,10 @@ body {
       font-size: 36px;
     }
     .justify-content-end {
-        padding-right: 25%;
+        position: relative;
+        right: 25%;
     }
     
   }
-  
+
+   
