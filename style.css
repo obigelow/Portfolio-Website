@@ -1,10 +1,51 @@
 * {
-    background-color: lightblue;
-
-}
- .card {
-    background-color: rgb(64, 64, 146);
-    color: lightslategray;
     font-family: 'Roboto', sans-serif;
 
 }
+body {
+    background-color: whitesmoke;
+
+}
+ .card-header {
+    position: absolute;
+    left: 30px;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    background-color: lightblue;
+    color: lightslategray;
+
+}
+
+.contact-bg {
+    padding: 25px;
+    background-color: lightblue;
+    height: 650px;
+    margin-bottom: 25px;
+}
+.card-footer { 
+    margin-bottom: 0px !important;
+    color: lightslategray;
+    background-color: lightblue;
+}
+.nav-link {
+    color: lightslategray;
+}
+
+@media screen and (max-width: 500px) {
+   
+    .card-header {
+      position: relative;
+      left: 0px;
+      width: 100%;
+      height: 60px; 
+      padding: 10px;
+      font-size: 36px;
+    }
+    .justify-content-end {
+        padding-right: 25%;
+    }
+    
+  }
+  
