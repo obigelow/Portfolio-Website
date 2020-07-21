@@ -1,0 +1,10 @@
+* {
+    background-color: lightblue;
+
+}
+ .card {
+    background-color: rgb(64, 64, 146);
+    color: lightslategray;
+    font-family: 'Roboto', sans-serif;
+
+}
