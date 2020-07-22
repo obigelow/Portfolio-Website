@@ -16,29 +16,39 @@ body {
     height: 35px;
     font-size: 18px;
     background-color: lightblue;
-    color: lightslategray;
 }
 
 .contact-bg, .portfolio-bg, .about-bg {
     border-radius: 10px 50px !important;
     padding: 25px;
     background-color: lightblue;
-    height: 650px;
     margin: 15px;
+    min-height: 650px;
+    max-width: 650px;
+}
+
+.nav-row {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.nav-link {
+    color: lightslategray;
+}
+
+.about-image {
+    float: left;
+    margin-right: 15px;
+}
+
+.pad-bottom {
+    padding: 25px;
 }
 
 .card-footer { 
     margin-bottom: 0px !important;
     color: lightslategray;
     background-color: lightblue;
-}
-
-.nav-row {
-    padding-top: 5px;
-}
-
-.nav-link {
-    color: lightslategray;
 }
 
 
@@ -55,9 +65,16 @@ body {
       border-radius: 0px !important;
     }
 
-.nav-row {
-    padding-top: 15px;
-}
+    .nav-row {
+      padding-top: 10px;
+      padding-right: 0px;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 15px;
+    }
     
   }
 
@@ -72,6 +89,5 @@ body {
     .contact-bg, .portfolio-bg, .about-bg {
         margin-top: 75px;
     }
-
-   
+  
   } 
