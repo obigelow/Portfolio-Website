@@ -7,6 +7,7 @@ body {
 
 }
  .card-header {
+    border-radius: 15px / 50px !important;
     position: absolute;
     left: 10px;
     top: 5px;
@@ -16,10 +17,10 @@ body {
     font-size: 18px;
     background-color: lightblue;
     color: lightslategray;
-
 }
 
 .contact-bg, .portfolio-bg, .about-bg {
+    border-radius: 15px 50px !important;
     padding: 25px;
     background-color: lightblue;
     height: 650px;
