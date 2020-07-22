@@ -24,7 +24,6 @@ body {
     background-color: lightblue;
     margin: 15px;
     min-height: 650px;
-    max-width: 650px;
 }
 
 .nav-row {
@@ -41,8 +40,8 @@ body {
     margin-right: 15px;
 }
 
-.pad-bottom {
-    padding: 25px;
+.pad-portfolio { 
+    padding-bottom: 25px;
 }
 
 .card-footer { 
