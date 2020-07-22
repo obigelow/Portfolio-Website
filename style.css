@@ -22,7 +22,9 @@ body {
     padding: 25px;
     background-color: lightblue;
     height: 650px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    margin: 15px;
+
 }
 .card-footer { 
     margin-bottom: 0px !important;
@@ -33,7 +35,12 @@ body {
     color: lightslategray;
 }
 
-@media screen and (max-width: 1000px) {
+
+ 
+
+
+
+@media screen and (max-width: 480px) {
    
     .card-header {
       position: relative;
@@ -45,7 +52,7 @@ body {
     }
     .justify-content-end {
         position: relative;
-        right: 25%;
+        right: 20%;
     }
     
   }
