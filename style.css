@@ -8,7 +8,8 @@ body {
 }
  .card-header {
     position: absolute;
-    left: 30px;
+    left: 10px;
+    top: 5px;
     padding: 5px;
     width: 150px;
     height: 35px;
@@ -18,13 +19,14 @@ body {
 
 }
 
-.contact-bg {
+.contact-bg, .portfolio-bg, .about-bg {
     padding: 25px;
     background-color: lightblue;
     height: 650px;
     margin: 15px;
 
 }
+
 .card-footer { 
     margin-bottom: 0px !important;
     color: lightslategray;
@@ -40,16 +42,26 @@ body {
     .card-header {
       position: relative;
       left: 0px;
+      top: 0px;
       width: 100%;
       height: 60px; 
       padding: 10px;
       font-size: 36px;
     }
-    .justify-content-end {
-        position: relative;
-        right: 20%;
-    }
     
   }
 
+  @media screen and (min-width: 480px) {
+
+    .justify-content-center {
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .contact-bg, .portfolio-bg, .about-bg {
+        margin-top: 75px;
+    }
+
    
+  } 
