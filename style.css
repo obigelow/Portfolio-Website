@@ -20,7 +20,7 @@ body {
 }
 
 .contact-bg, .portfolio-bg, .about-bg {
-    border-radius: 15px 50px !important;
+    border-radius: 10px 50px !important;
     padding: 25px;
     background-color: lightblue;
     height: 650px;
