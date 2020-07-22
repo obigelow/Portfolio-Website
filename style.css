@@ -22,7 +22,6 @@ body {
     padding: 25px;
     background-color: lightblue;
     height: 650px;
-    margin-bottom: 15px;
     margin: 15px;
 
 }
@@ -34,10 +33,6 @@ body {
 .nav-link {
     color: lightslategray;
 }
-
-
- 
-
 
 
 @media screen and (max-width: 480px) {
