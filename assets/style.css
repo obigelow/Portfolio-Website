@@ -2,10 +2,12 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
 body {
     background-color: whitesmoke;
 
 }
+
  .card-header {
     border-radius: 15px / 50px !important;
     position: absolute;
